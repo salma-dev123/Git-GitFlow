@@ -1,0 +1,28 @@
+.editorconfig est un fichier de configuration qu on met à la racine de ton projet.
+Son rôle : dire à ton éditeur de code (VS Code, PhpStorm, Sublime, etc.) comment formater le code automatiquement.
+-indentation (espaces ou tabulations)
+-taille de l’indentation (2, 4…)
+-type de fin de ligne (LF ou CRLF)
+-encodage (UTF-8)
+-supprimer les espaces inutiles à la fin
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+trim_trailing_whitespace = true
+
+[*.php]
+indent_size = 4
+
+[{*.js,*.ts,*.json,*.yml,*.yaml,*.md}]
+indent_size = 2
+
+[Makefile]
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false

@@ -1,0 +1,13 @@
+<type>(<scope>)!?: <résumé impératif>
+<ligne vide>
+<corps optionnel (motivation, détails)>
+<ligne vide>
+BREAKING CHANGE: description optionnelle
+
+//exemples
+feat(auth): activer login via email ou username
+fix(notes): corriger tri décroissant par défaut
+docs(readme): ajouter section installation rapide
+refactor(api): extraire service de pagination
+perf(query): ajouter index composite sur (user_id, created_at)
+test(http): couvrir 401/403 sur routes privées
